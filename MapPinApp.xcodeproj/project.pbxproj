@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA5640D926C2470500BC627D /* HaritalarUygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HaritalarUygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA5640D926C2470500BC627D /* MapPinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapPinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5640DC26C2470500BC627D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5640DE26C2470500BC627D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA5640E026C2470500BC627D /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
@@ -44,7 +44,7 @@
 		DA5640D026C2470500BC627D = {
 			isa = PBXGroup;
 			children = (
-				DA5640DB26C2470500BC627D /* HaritalarUygulamasi */,
+				DA5640DB26C2470500BC627D /* MapPinApp */,
 				DA5640DA26C2470500BC627D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -52,12 +52,12 @@
 		DA5640DA26C2470500BC627D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA5640D926C2470500BC627D /* HaritalarUygulamasi.app */,
+				DA5640D926C2470500BC627D /* MapPinApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA5640DB26C2470500BC627D /* HaritalarUygulamasi */ = {
+		DA5640DB26C2470500BC627D /* MapPinApp */ = {
 			isa = PBXGroup;
 			children = (
 				DA5640DC26C2470500BC627D /* AppDelegate.swift */,
@@ -70,15 +70,15 @@
 				DA5640ED26C2470600BC627D /* Info.plist */,
 				DA5640E526C2470500BC627D /* HaritalarUygulamasi.xcdatamodeld */,
 			);
-			path = HaritalarUygulamasi;
+			path = MapPinApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA5640D826C2470500BC627D /* HaritalarUygulamasi */ = {
+		DA5640D826C2470500BC627D /* MapPinApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA5640F026C2470600BC627D /* Build configuration list for PBXNativeTarget "HaritalarUygulamasi" */;
+			buildConfigurationList = DA5640F026C2470600BC627D /* Build configuration list for PBXNativeTarget "MapPinApp" */;
 			buildPhases = (
 				DA5640D526C2470500BC627D /* Sources */,
 				DA5640D626C2470500BC627D /* Frameworks */,
@@ -88,9 +88,9 @@
 			);
 			dependencies = (
 			);
-			name = HaritalarUygulamasi;
+			name = MapPinApp;
 			productName = HaritalarUygulamasi;
-			productReference = DA5640D926C2470500BC627D /* HaritalarUygulamasi.app */;
+			productReference = DA5640D926C2470500BC627D /* MapPinApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -107,7 +107,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA5640D426C2470500BC627D /* Build configuration list for PBXProject "HaritalarUygulamasi" */;
+			buildConfigurationList = DA5640D426C2470500BC627D /* Build configuration list for PBXProject "MapPinApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -120,7 +120,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA5640D826C2470500BC627D /* HaritalarUygulamasi */,
+				DA5640D826C2470500BC627D /* MapPinApp */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PGKAW8D8;
-				INFOPLIST_FILE = HaritalarUygulamasi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MapPinApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 36PGKAW8D8;
-				INFOPLIST_FILE = HaritalarUygulamasi/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/MapPinApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,7 +330,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA5640D426C2470500BC627D /* Build configuration list for PBXProject "HaritalarUygulamasi" */ = {
+		DA5640D426C2470500BC627D /* Build configuration list for PBXProject "MapPinApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA5640EE26C2470600BC627D /* Debug */,
@@ -339,7 +339,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA5640F026C2470600BC627D /* Build configuration list for PBXNativeTarget "HaritalarUygulamasi" */ = {
+		DA5640F026C2470600BC627D /* Build configuration list for PBXNativeTarget "MapPinApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA5640F126C2470600BC627D /* Debug */,
